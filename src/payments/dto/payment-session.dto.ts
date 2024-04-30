@@ -11,6 +11,9 @@ import {
 
 export class PaymentSessionDto {
   @IsString()
+  orderId: string;
+
+  @IsString()
   currency: string;
 
   @IsArray()

@@ -34,3 +34,10 @@ pnpm run start:dev
 ```bash
 docker-compose up -d
 ```
+
+---
+
+Para pruebas del endpoint `/payments/webhook` desde local usamos:
+
+- <https://dashboard.hookdeck.com/connections>
+- <https://dashboard.stripe.com/test/webhooks>
