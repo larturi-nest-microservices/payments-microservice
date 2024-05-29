@@ -4,6 +4,6 @@ import { Controller, Get } from '@nestjs/common';
 export class HelthCkeckController {
   @Get()
   healthCheck(): string {
-    return 'Client Gateway service is up and running!';
+    return 'Payments Microservice is up and running!';
   }
 }
